@@ -1,16 +1,18 @@
 .header {
-
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .container {
     padding: 8px;
+    height: 100vh;
 }
 
 .list {
     list-style-type: none;
     padding: 0;
+    height: calc(100% - 16px);
     overflow-y: scroll;
-    height: 100vh;
 }
 
 .item {

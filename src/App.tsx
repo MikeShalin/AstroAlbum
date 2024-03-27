@@ -11,7 +11,6 @@ function App() {
   const [date, setDate] = useState(dateRef.current);
   return (
     <Root>
-      <></>
       <Gallery setDate={setDate} today={date} />
       <Map date={date} />
     </Root>
